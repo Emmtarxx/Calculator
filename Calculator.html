@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    scrs
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Calculator</title>
+   
 </head>
-<body>
+  </div><br>
+  <h2 style="color: yellow; text-align: center;">WELCOME TO EMMANUEL'S CALCULATOR </h2>
+<body background="img/calcpix1.jpg">
+  <div class="container">
+    <form id="form">
+        <div class="form-group">
+            <label for ="num1" style="color: white;">
+                Input the first number:
+            </label>
+            <input type="number" id = "num1" class="form-control">
+        </div>
+            <div class="form-group">
+                <label for ="num2" style="color: white;">
+                    Input the second number:
+                </label>
+                <input type="number" id="num2" class="form-control"> 
+        </div>
+        <button for = "submit" id ="Add"class="btn btn-outline-danger" style="border: 5px solid red;">+</button>
+        <button for ="submit"  id="Sub"class="btn btn-outline-primary" style="border: 5px solid white;">-</button>
+        <button for = "submit" id = "Mul"class="btn btn-outline-warning" style="border: 5px solid greenyellow;">*</button>
+        <button for ="submit" id ="Div"class="btn btn-outline-dark" style="border: 5px solid yellow;">÷</button>
+        <div class="form-group pl-3 pt-2" style="border: 2px solid white;margin-top: 12px;height: 50px; background-color: white;">
+            <p id="result" style="color: red;"></p>
+        </div>
+    </form>
+</div>
+
+</body>
     
 </body>
 </html>
